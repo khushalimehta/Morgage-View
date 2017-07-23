@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D95CE991C7D40510014A642 /* mortgageSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D95CE981C7D40510014A642 /* mortgageSwift.swift */; };
+		7D9800621C7417D8003381BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9800611C7417D8003381BC /* AppDelegate.swift */; };
+		7D9800641C7417D8003381BC /* MortgageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9800631C7417D8003381BC /* MortgageViewController.swift */; };
+		7D9800671C7417D8003381BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9800651C7417D8003381BC /* Main.storyboard */; };
+		7D9800691C7417D8003381BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9800681C7417D8003381BC /* Assets.xcassets */; };
+		7D98006C1C7417D8003381BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D98006A1C7417D8003381BC /* LaunchScreen.storyboard */; };
+		7D9800771C7417D8003381BC /* morgageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9800761C7417D8003381BC /* morgageViewTests.swift */; };
+		7D9800821C7417D8003381BC /* morgageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9800811C7417D8003381BC /* morgageViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D9800731C7417D8003381BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D9800561C7417D8003381BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D98005D1C7417D8003381BC;
+			remoteInfo = morgageView;
+		};
+		7D98007E1C7417D8003381BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D9800561C7417D8003381BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D98005D1C7417D8003381BC;
+			remoteInfo = morgageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D95CE981C7D40510014A642 /* mortgageSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mortgageSwift.swift; sourceTree = "<group>"; };
+		7D98005E1C7417D8003381BC /* morgageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = morgageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9800611C7417D8003381BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D9800631C7417D8003381BC /* MortgageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageViewController.swift; sourceTree = "<group>"; };
+		7D9800661C7417D8003381BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D9800681C7417D8003381BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D98006B1C7417D8003381BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D98006D1C7417D8003381BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9800721C7417D8003381BC /* morgageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morgageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9800761C7417D8003381BC /* morgageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morgageViewTests.swift; sourceTree = "<group>"; };
+		7D9800781C7417D8003381BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D98007D1C7417D8003381BC /* morgageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morgageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9800811C7417D8003381BC /* morgageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morgageViewUITests.swift; sourceTree = "<group>"; };
+		7D9800831C7417D8003381BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D98005B1C7417D8003381BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98006F1C7417D8003381BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98007A1C7417D8003381BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9800551C7417D8003381BC = {
+			isa = PBXGroup;
+			children = (
+				7D9800601C7417D8003381BC /* morgageView */,
+				7D9800751C7417D8003381BC /* morgageViewTests */,
+				7D9800801C7417D8003381BC /* morgageViewUITests */,
+				7D98005F1C7417D8003381BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D98005F1C7417D8003381BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D98005E1C7417D8003381BC /* morgageView.app */,
+				7D9800721C7417D8003381BC /* morgageViewTests.xctest */,
+				7D98007D1C7417D8003381BC /* morgageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D9800601C7417D8003381BC /* morgageView */ = {
+			isa = PBXGroup;
+			children = (
+				7D9800611C7417D8003381BC /* AppDelegate.swift */,
+				7D9800631C7417D8003381BC /* MortgageViewController.swift */,
+				7D9800651C7417D8003381BC /* Main.storyboard */,
+				7D9800681C7417D8003381BC /* Assets.xcassets */,
+				7D98006A1C7417D8003381BC /* LaunchScreen.storyboard */,
+				7D98006D1C7417D8003381BC /* Info.plist */,
+				7D95CE981C7D40510014A642 /* mortgageSwift.swift */,
+			);
+			path = morgageView;
+			sourceTree = "<group>";
+		};
+		7D9800751C7417D8003381BC /* morgageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D9800761C7417D8003381BC /* morgageViewTests.swift */,
+				7D9800781C7417D8003381BC /* Info.plist */,
+			);
+			path = morgageViewTests;
+			sourceTree = "<group>";
+		};
+		7D9800801C7417D8003381BC /* morgageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D9800811C7417D8003381BC /* morgageViewUITests.swift */,
+				7D9800831C7417D8003381BC /* Info.plist */,
+			);
+			path = morgageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D98005D1C7417D8003381BC /* morgageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9800861C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageView" */;
+			buildPhases = (
+				7D98005A1C7417D8003381BC /* Sources */,
+				7D98005B1C7417D8003381BC /* Frameworks */,
+				7D98005C1C7417D8003381BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = morgageView;
+			productName = morgageView;
+			productReference = 7D98005E1C7417D8003381BC /* morgageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D9800711C7417D8003381BC /* morgageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9800891C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageViewTests" */;
+			buildPhases = (
+				7D98006E1C7417D8003381BC /* Sources */,
+				7D98006F1C7417D8003381BC /* Frameworks */,
+				7D9800701C7417D8003381BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D9800741C7417D8003381BC /* PBXTargetDependency */,
+			);
+			name = morgageViewTests;
+			productName = morgageViewTests;
+			productReference = 7D9800721C7417D8003381BC /* morgageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D98007C1C7417D8003381BC /* morgageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D98008C1C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageViewUITests" */;
+			buildPhases = (
+				7D9800791C7417D8003381BC /* Sources */,
+				7D98007A1C7417D8003381BC /* Frameworks */,
+				7D98007B1C7417D8003381BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D98007F1C7417D8003381BC /* PBXTargetDependency */,
+			);
+			name = morgageViewUITests;
+			productName = morgageViewUITests;
+			productReference = 7D98007D1C7417D8003381BC /* morgageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D9800561C7417D8003381BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Shah, Priyanka";
+				TargetAttributes = {
+					7D98005D1C7417D8003381BC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G4TT6DB77D;
+					};
+					7D9800711C7417D8003381BC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G4TT6DB77D;
+						TestTargetID = 7D98005D1C7417D8003381BC;
+					};
+					7D98007C1C7417D8003381BC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G4TT6DB77D;
+						TestTargetID = 7D98005D1C7417D8003381BC;
+					};
+				};
+			};
+			buildConfigurationList = 7D9800591C7417D8003381BC /* Build configuration list for PBXProject "morgageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D9800551C7417D8003381BC;
+			productRefGroup = 7D98005F1C7417D8003381BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D98005D1C7417D8003381BC /* morgageView */,
+				7D9800711C7417D8003381BC /* morgageViewTests */,
+				7D98007C1C7417D8003381BC /* morgageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D98005C1C7417D8003381BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D98006C1C7417D8003381BC /* LaunchScreen.storyboard in Resources */,
+				7D9800691C7417D8003381BC /* Assets.xcassets in Resources */,
+				7D9800671C7417D8003381BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9800701C7417D8003381BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98007B1C7417D8003381BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D98005A1C7417D8003381BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D95CE991C7D40510014A642 /* mortgageSwift.swift in Sources */,
+				7D9800641C7417D8003381BC /* MortgageViewController.swift in Sources */,
+				7D9800621C7417D8003381BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98006E1C7417D8003381BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9800771C7417D8003381BC /* morgageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9800791C7417D8003381BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9800821C7417D8003381BC /* morgageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D9800741C7417D8003381BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D98005D1C7417D8003381BC /* morgageView */;
+			targetProxy = 7D9800731C7417D8003381BC /* PBXContainerItemProxy */;
+		};
+		7D98007F1C7417D8003381BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D98005D1C7417D8003381BC /* morgageView */;
+			targetProxy = 7D98007E1C7417D8003381BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D9800651C7417D8003381BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D9800661C7417D8003381BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D98006A1C7417D8003381BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98006B1C7417D8003381BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D9800841C7417D8003381BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D9800851C7417D8003381BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9800871C7417D8003381BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = morgageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D9800881C7417D8003381BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = morgageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7D98008A1C7417D8003381BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morgageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morgageView.app/morgageView";
+			};
+			name = Debug;
+		};
+		7D98008B1C7417D8003381BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morgageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morgageView.app/morgageView";
+			};
+			name = Release;
+		};
+		7D98008D1C7417D8003381BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morgageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morgageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7D98008E1C7417D8003381BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morgageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mad.priyanka.morgageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morgageView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D9800591C7417D8003381BC /* Build configuration list for PBXProject "morgageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9800841C7417D8003381BC /* Debug */,
+				7D9800851C7417D8003381BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9800861C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9800871C7417D8003381BC /* Debug */,
+				7D9800881C7417D8003381BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9800891C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D98008A1C7417D8003381BC /* Debug */,
+				7D98008B1C7417D8003381BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D98008C1C7417D8003381BC /* Build configuration list for PBXNativeTarget "morgageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D98008D1C7417D8003381BC /* Debug */,
+				7D98008E1C7417D8003381BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D9800561C7417D8003381BC /* Project object */;
+}
